@@ -1,0 +1,89 @@
+    body{background-color: lavender;
+    }
+
+    h1{color: darkblue;
+    font-family:"cursive";
+        font-style: italic;
+    text-align: center;
+    font-size: 40px;}
+
+    .histoy{font-family: cursive;
+            font-size: 25px;
+            text-align: center;}
+    p{font-family: "MS Gothic";
+        font-size: medium;
+        text-align: center;}
+
+     ul {
+         list-style-type: none;
+         margin: 0;
+         padding: 0;
+         overflow: hidden;
+         background-color: crimson;
+     }
+
+    ul li {
+        float: left;
+    }
+
+    ul li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    ul li a:hover {
+        background-color: #111;
+    }
+
+    .marquee img {
+        display: inline-block;
+        padding-left: 100%;
+        animation: marquee 10s linear infinite;
+    }
+    @keyframes marquee {
+        0%   { transform: translate(0, 0); }
+        100% { transform: translate(-100%, 0);}
+    }
+    dt{color: hotpink;}
+
+
+    img{padding-top:20px;}
+
+    h2{color: hotpink;
+    text-align: center;}
+    .author{text-align: left;
+    text-shadow: -2px -4px 3px lightcoral;
+    font-size: 40px;}
+
+    form{text-align: center;}
+    td{font-size: 25px;
+    font-style: italic;
+    font-family: "MS Gothic"}
+
+    th{color: crimson;
+    font-size: 35px;
+    font-style: italic;
+    padding-top: 20px;}
+    .dance{float: right;}
+    .source{padding-top: 100px;}
+    #border{border: 5px dashed darkred;
+    text-align: center;
+    padding: 15px;
+    color: darkblue;}
+    th{padding-bottom: 60px;}
+    .list{font-family: "MS Gothic";
+    font-size: 20px;
+    color: darkblue;}
+    #order{font-family: cursive;
+    font-size: 20px;
+    font-style: italic;
+    }
+    .center{display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;}
+    .video {
+        text-align: right;
+    }
